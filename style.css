@@ -1,0 +1,28 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.square {
+    background: white;
+    border-radius: 10%;
+    flex: 0 0 auto;
+}
+
+.hover {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    width: 600px;
+    height: 600px;
+}
